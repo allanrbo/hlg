@@ -1,0 +1,14 @@
+POST /?a=1 HTTP/1.1
+Content-Type: multipart/form-data; boundary=------------------------1aa6ce6559102
+Accept: */*
+Host: example.net
+Max-Forwards: 10
+User-Agent: myuseragent
+Cookie: test123=123; test456=123
+Content-Length: {{bodylength}}
+
+--------------------------1aa6ce6559102
+content-disposition: form-data; name="b"
+
+Hello world.
+--------------------------1aa6ce6559102--

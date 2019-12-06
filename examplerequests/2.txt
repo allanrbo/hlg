@@ -1,0 +1,7 @@
+GET /static.html HTTP/1.1
+Host: example.com
+User-Agent: hlg/0.0.0
+Accept: */*
+Connection: Keep-Alive
+
+
