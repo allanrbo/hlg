@@ -4,6 +4,8 @@ Hlg is a benchmarking tool that will find a sustainable throughput rate at a giv
 
 As input, it takes the maximum latency you are willing to accept. As output it gives you the rps (requests per second rate) able to be sustained while staying below the maximum latency requirement input.
 
+Note how this is opposite of most benchmarking tools, which take rps as input and gives latency as output!
+
 It works by running a hill climbing algorithm with a series of benchmarks with varying rps. It eventually converges on a sustainable rps.
 
 Example:
